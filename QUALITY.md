@@ -2,11 +2,12 @@
 
 ## Automated production-equivalent suite
 
-**Result: 65 passed · 0 failed**
+**Result: 109 passed · 0 failed**
 
 Coverage included:
 
-- public routes, price list, offline page, manifest, service worker, robots, sitemap and app icons;
+- public home, dedicated `/gallery`, focused `/book`, price list, offline page, manifest, service worker, robots, sitemap and app icons;
+- rendered same-origin destination crawling, query-aware booking links and internal-fragment validation;
 - strict transport, frame, referrer, permission and content-type headers;
 - installable-PWA mode, icons and shortcuts;
 - service availability and real start times;
@@ -39,14 +40,16 @@ The deployed `jb-braids.pages.dev` environment was checked separately:
 
 ## Responsive and interaction audit
 
-- 390 × 844 mobile and 1280 × 720 desktop visual passes;
-- full mobile scroll across 23,847 px of rendered experience;
-- 54 images loaded, 0 broken;
-- 12 Instagram cards loaded, 0 broken;
+- 320 × 568 compact mobile, 390 × 844 mobile and 1280 × 720 laptop visual passes;
+- 390 × 844 rendered heights: 13,293 px home, 3,653 px gallery and 5,157 px booking desk;
+- the laptop hero occupies the exact 642 px available below the 78 px header, with heading, actions, proof and video all inside the first viewport;
+- four home signature cards, five portfolio-preview frames, three default TikTok features and five switched Instagram favourites verified;
+- eight gallery editorial frames and six bookable signature cards verified;
 - 0 horizontal page overflow;
 - 0 missing internal anchors;
 - 0 empty buttons or links;
 - no visible mobile buttons below the 44 px target size;
-- mobile menu opens, traps the navigation experience and closes on section selection;
-- inline TikTok playback, Windhoek address lookup, map pinning, admin lock/logout, calendar selection and service save verified through the UI;
+- Explore opens from the header and dock, locks the page, remains internally scrollable, closes by button or Escape, and restores focus;
+- the Signature Twists focal crop was verified at `50% 18%`, preserving the full head and braid silhouette;
+- social switching, story and booking disclosures, query-aware service preselection, Namibia-only client fields, Windhoek callout map, admin lock/logout, calendar selection and service save verified through the UI;
 - no live-site browser console errors observed.

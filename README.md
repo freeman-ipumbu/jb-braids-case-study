@@ -6,7 +6,7 @@
 
 <p align="center">
   A booking-first digital flagship for Windhoek hairstylist Jessica Autoni.<br />
-  Brand world, live pricing, callout concierge, loyalty engine and private studio operations—built as one experience.
+  Editorial home, curated gallery, focused booking desk, live pricing, callout concierge, loyalty engine and private studio operations—built as one connected experience.
 </p>
 
 <p align="center">
@@ -43,8 +43,8 @@ The design language combines woven forms, sharp display typography, tactile pape
 
 | Client experience | Studio operations | Trust and resilience |
 | --- | --- | --- |
-| Editorial mobile-first portfolio | Private owner-PIN admin desk | Server-controlled pricing and totals |
-| Live service menu and modifiers | Booking and deposit-proof workflow | Atomic collision and capacity protection |
+| Curated `/gallery` exhibition and compact home preview | Private owner-PIN admin desk | Server-controlled pricing and totals |
+| Complete `/price-list`, popular home preview and focused `/book` desk | Booking and deposit-proof workflow | Atomic collision and capacity protection |
 | 7–90 day availability calendar | Calendar capacity and blocked days | Namibia-only phone validation |
 | Home, house-call and away-call routes | Service pricing and duration editor | Strict origin, schema and upload checks |
 | Windhoek address search and map pin | Crown Club and referral ledger | Private R2 payment-proof storage |
@@ -53,7 +53,7 @@ The design language combines woven forms, sharp display typography, tactile pape
 
 ## Social proof became product content
 
-The public Instagram profile was expanded and reviewed through all **24 visible reels**, reaching back to 25 June 2026. Twelve varied looks were curated into a living editorial gallery. Five high-performing TikTok looks were given their own motion rail, with direct links back to Jessica’s original posts.
+The public Instagram profile was expanded and reviewed through all **24 visible reels**, reaching back to 25 June 2026. The home now switches deliberately between three high-performing TikTok features and five Instagram favourites instead of stacking two feeds. A separate gallery sequences eight editorial frames and six bookable signatures, with direct links back to Jessica’s original channels.
 
 This keeps the site anchored in real work instead of stock imagery or invented portfolio pieces.
 
@@ -73,6 +73,8 @@ flowchart LR
 
 Longer looks consume more chair units, overlapping appointments cannot be claimed twice, and cancelled requests release their booking window. Clients never control their own price, deposit or reward totals.
 
+Gallery and menu choices deep-link into `/book?service=…`, so the selected look arrives prefilled. Colour, beads, prep, takedown, email, referral and custom-request fields remain available behind clear optional disclosures rather than lengthening every client’s first pass.
+
 ## Crown Club
 
 One completed appointment earns one Crown. Four Crowns unlock **N$150 service credit** for visit five. Referral rewards are ledger-backed and awarded only after the referred client’s first completed appointment.
@@ -87,7 +89,7 @@ The implementation source remains private. This repository is the public design 
 
 ## Release quality
 
-The production-equivalent suite completed **65 checks with 0 failures**. The live release then passed a separate smoke test covering the production owner session, forged-header rejection, real slot creation, duplicate blocking, cancellation, slot release and clean removal of QA data.
+The expanded production contract suite completed **109 checks with 0 failures**. It now crawls the split public experience and internal anchors in addition to the owner session, forged-header rejection, real slot creation, duplicate blocking, server-owned totals, private proof handling, Crown Club logic and admin publication flows.
 
 See [Quality record](QUALITY.md) and [Architecture notes](ARCHITECTURE.md).
 
