@@ -1,20 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
-  <title id="title">JB.Braids woven crown monogram</title>
-  <desc id="desc">A clean interwoven J and B formed from braided strands inside a dark rounded crest.</desc>
-  <defs>
-    <linearGradient id="heat" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff8550"/><stop offset="1" stop-color="#d94827"/></linearGradient>
-    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe17f"/><stop offset="1" stop-color="#efae35"/></linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="7" stdDeviation="6" flood-color="#000" flood-opacity=".34"/></filter>
-  </defs>
-  <rect x="6" y="6" width="228" height="228" rx="51" fill="#17110f"/>
-  <rect x="14" y="14" width="212" height="212" rx="43" fill="none" stroke="#f3bc4d" stroke-width="3"/>
-  <g filter="url(#shadow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M67 47v97c0 43 48 55 66 18" stroke="url(#heat)" stroke-width="27"/>
-    <path d="M111 45v151" stroke="url(#sun)" stroke-width="25"/>
-    <path d="M112 51c52-18 77 2 69 34-6 24-35 31-69 24" stroke="url(#sun)" stroke-width="24"/>
-    <path d="M112 109c63-13 91 14 77 52-10 29-43 38-77 31" stroke="url(#sun)" stroke-width="24"/>
+  <title id="title">JB.Braids strand monogram</title>
+  <desc id="desc">A refined black J and B drawn as interlocking braided strands on warm white.</desc>
+  <rect x="5" y="5" width="230" height="230" rx="42" fill="#F7F7F5" stroke="#0B0B0B" stroke-width="10"/>
+  <circle cx="67" cy="45" r="12" fill="#0B0B0B"/>
+  <g fill="none" stroke="#0B0B0B" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M67 71v72c0 33 10 51 27 51 6 0 11-3 13-9" stroke-width="20"/>
+    <path d="M117 48v146" stroke-width="18"/>
+    <path d="M117 53c43-13 68 1 66 29-2 24-24 34-66 30" stroke-width="18"/>
+    <path d="M117 112c52-8 77 10 71 43-5 30-34 42-71 37" stroke-width="18"/>
   </g>
-  <g fill="none" stroke="#17110f" stroke-width="8" stroke-linecap="round"><path d="M56 77l22 12M55 105l22 12M57 133l20 11"/><path d="M100 76l24 12M100 108l25 12M100 143l25 12M100 176l22 11"/><path d="M150 62l22 12M147 96l22 11M154 126l22 12M154 163l22 12"/></g>
-  <g fill="none" stroke="#f6ead4" stroke-width="4" stroke-linecap="round" opacity=".9"><path d="M61 76l16 9M59 106l16 9M61 134l15 8"/><path d="M104 76l17 9M104 109l17 9M104 144l17 9M104 177l15 8"/><path d="M153 62l16 9M151 97l15 8M158 127l15 8M158 164l15 8"/></g>
-  <path d="M198 188l2.5 6.5 6.5 2.5-6.5 2.5-2.5 6.5-2.5-6.5-6.5-2.5 6.5-2.5z" fill="#f6ead4"/>
+  <g stroke="#F7F7F5" stroke-width="6" stroke-linecap="round">
+    <path d="M58 82l19 11"/><path d="M57 117l19 11"/><path d="M106 78l20 11"/>
+    <path d="M106 121l20 11"/><path d="M106 164l20 11"/><path d="M150 60l18 10"/>
+    <path d="M153 118l20 11"/><path d="M154 166l19 10"/>
+  </g>
+  <g stroke="#8B8B87" stroke-width="2.5" stroke-linecap="round">
+    <path d="M61 82l14 8"/><path d="M60 117l14 8"/><path d="M109 78l14 8"/>
+    <path d="M109 121l14 8"/><path d="M109 164l14 8"/><path d="M153 60l13 7"/>
+    <path d="M156 118l14 8"/><path d="M157 166l13 7"/>
+  </g>
 </svg>
