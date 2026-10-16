@@ -23,12 +23,17 @@
   <strong>Now live:</strong> the monochrome release is deployed at the canonical production domain and has completed its post-deployment verification gate.
 </p>
 
+<p align="center">
+  <a href="https://jb-braids.pages.dev/"><img src="assets/jb-braids-release-2026.webp" width="100%" alt="Final JB.Braids launch artwork featuring the 2026 monochrome identity, client hair artistry and founder Jessica Autoni" /></a>
+</p>
+
 <table>
   <tr>
-    <td width="25%"><img src="assets/jessica-autoni-founder.webp" alt="Jessica Autoni, founder and lead stylist of JB.Braids" /></td>
-    <td width="25%"><img src="assets/copper-curls.jpg" alt="Copper curl work by JB.Braids" /></td>
-    <td width="25%"><img src="assets/beaded-cornrows.jpg" alt="Beaded cornrow work by JB.Braids" /></td>
-    <td width="25%"><img src="assets/blonde-boho.jpg" alt="Blonde boho work by JB.Braids" /></td>
+    <td width="20%"><img src="assets/jessica-autoni-founder-2026.webp" alt="Jessica Autoni, founder and lead stylist of JB.Braids" /></td>
+    <td width="20%"><img src="assets/burgundy-river-locs.webp" alt="Burgundy river locs by JB.Braids" /></td>
+    <td width="20%"><img src="assets/burgundy-beaded-cornrows.webp" alt="Burgundy beaded cornrows by JB.Braids" /></td>
+    <td width="20%"><img src="assets/midnight-pixie-mullet.webp" alt="Midnight pixie mullet by JB.Braids" /></td>
+    <td width="20%"><img src="assets/golden-passion-twists.webp" alt="Golden passion twists by JB.Braids" /></td>
   </tr>
 </table>
 
@@ -50,7 +55,7 @@ The restraint is intentional: the interface recedes, the hairstyles own the colo
 
 | Client experience | Studio operations | Trust and resilience |
 | --- | --- | --- |
-| Curated home edit with dedicated `/gallery` | Authenticated private studio desk | Server-controlled pricing, totals and 50% deposit |
+| Curated home edit, 12-look `/gallery` and six-film studio player | Authenticated private studio desk | Server-controlled pricing, totals and 50% deposit |
 | Complete `/price-list` and focused `/book` journey | Booking, status and proof workflow | Atomic collision and daily-capacity protection |
 | 7–90 day availability calendar | Calendar capacity and blocked days | Namibia-only phone validation |
 | Home-studio, house-call and away-call routes | Service pricing and duration editor | Strict origin, schema and upload validation |
@@ -60,15 +65,17 @@ The restraint is intentional: the interface recedes, the hairstyles own the colo
 
 ## Jessica is part of the brand
 
-The live experience gives the founder a visible role instead of hiding her behind a business handle. Jessica appears in the hero, a dedicated founder story and structured business identity, with a direct route to [her personal Instagram](https://www.instagram.com/jessica_autony/). Her portrait and the JB.Braids portfolio are used with permission.
+The live experience gives the founder a visible role instead of hiding her behind a business handle. Jessica appears in the hero, a dedicated founder story, the launch preview and structured business identity, with a direct route to [her personal Instagram](https://www.instagram.com/jessica_autony/). The final founder portrait was selected by Jessica; her portrait and the JB.Braids portfolio are used with permission.
 
 That presence matters: clients are not only choosing a hairstyle. They are trusting a person, her taste and her hands.
 
 ## Social proof became product content
 
-JB.Braids’ public Instagram and TikTok work was treated as evidence, not decoration. The public experience separates a tight home edit from the complete gallery, switches between selected video and Instagram collections, and links back to Jessica’s original channels.
+JB.Braids’ public Instagram and TikTok work was treated as evidence, not decoration. The final experience separates a tight home edit from a deliberately ordered 12-look gallery, presents six original vertical studio films through one active player rather than six competing embeds, switches cleanly to selected TikTok and Instagram channels, and links back to Jessica’s original profiles.
 
 This keeps the site anchored in real work without forcing every visitor to scroll through every asset before they can understand the offer or book.
+
+Link previews now use a dedicated 1200 × 630 launch card, canonical URLs, Open Graph fields, Twitter card fields and descriptive image text, so JB.Braids is represented consistently when the production link is shared.
 
 ## The booking system
 
@@ -104,7 +111,7 @@ The production implementation remains private. This repository is a portfolio-sa
 
 ## Release quality
 
-The deployed monochrome release passed lint, TypeScript, production-mode build, current-tree route/PWA/asset probes and the final production contract: **110 passed · 0 failed**. Live visual smoke review covered 1440 × 900 desktop and 390 × 844 mobile, with additional pre-deployment reviews at 360 × 800 and 320 × 568. An isolated synthetic production run was fully cleaned, and aggregate post-clean verification found no booking, customer, loyalty or proof artifacts remaining.
+The deployed monochrome release passed lint, TypeScript, production-mode build, current-tree route/PWA/asset probes and the final production contract: **133 passed · 0 failed**. Live visual smoke review covered 1440 × 900 desktop, 390 × 844 mobile, 320 × 568 compact mobile and 844 × 390 compact landscape. The film switcher, gallery actions, booking entry, founder crop, header, mobile dock and social metadata were included in the final scrutiny. An isolated synthetic production run was fully cleaned, and aggregate post-clean verification found no booking, customer, loyalty or proof artifacts remaining.
 
 See the [quality record](QUALITY.md) and [architecture notes](ARCHITECTURE.md) for the evidence boundary and system design.
 

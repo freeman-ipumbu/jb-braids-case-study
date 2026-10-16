@@ -10,7 +10,7 @@ This file records current-tree and deployed-origin checks for the monochrome rel
 - TypeScript completed with no emitted files and no type errors.
 - The production-mode application build completed successfully.
 - 21 public-route, preset and PWA probes passed in the current-tree regression check; `/admin` correctly redirected to authentication.
-- 36 referenced media and font assets returned successful, non-empty responses.
+- Every referenced font, image, poster, six-film source and 1200 × 630 social-preview asset returned a successful, non-empty response.
 - All 24 explicit service-worker shell entries were retrievable after the live-only booking route was removed from the cache list.
 - The generated content-security policy permits the intended TikTok frame origin while retaining strict frame and resource boundaries.
 - Completed, cancelled and no-show records are excluded consistently from availability and booking-capacity checks.
@@ -19,8 +19,8 @@ This file records current-tree and deployed-origin checks for the monochrome rel
 
 ## Deployed production verification
 
-- The final production contract completed with **110 passed · 0 failed** against the canonical origin.
-- Live visual smoke checks passed at 1440 × 900 desktop and 390 × 844 mobile.
+- The final production contract completed with **133 passed · 0 failed** against the canonical origin.
+- Live visual smoke checks passed at 1440 × 900 desktop, 390 × 844 mobile, 320 × 568 compact mobile and 844 × 390 compact landscape.
 - The isolated production QA cleanup removed exactly the seven KV keys and one R2 object created by the verification run.
 - Aggregate post-clean verification reported 0 booking records, 0 customer records, 0 loyalty records and a 0 B proof bucket.
 - No record identifiers, proof names, contact details, credentials or raw cleanup output are included in this public repository.
@@ -33,6 +33,7 @@ The current interface was inspected at:
 - 390 × 844 mobile;
 - 360 × 800 mobile; and
 - 320 × 568 compact mobile.
+- 844 × 390 compact landscape.
 
 The review covered:
 
@@ -41,20 +42,24 @@ The review covered:
 - hamburger-menu scroll, close control and background locking;
 - gallery rails and the Signature Twists focal crop;
 - service-card media fit on desktop and mobile;
+- single-player switching across six local studio films plus TikTok and Instagram channels;
+- the final Jessica Autoni founder portrait and all gallery focal crops;
 - price-list masthead and badge separation;
 - Crown Club lookup and reward-summary widths;
 - admin mobile density and empty-space removal;
 - text contrast across image overlays and dark panels; and
 - progressive-reveal fallback when JavaScript is unavailable.
+- canonical, Open Graph and Twitter share metadata plus the 1200 × 630 launch card.
 
 The corrected layouts were rechecked at the affected breakpoints after the fixes.
 
 ## Interaction and hardening coverage
 
-The deployed 110-check production contract covers the following release-critical behavior:
+The deployed 133-check production contract covers the following release-critical behavior:
 
 - public routes, same-origin destinations and internal fragment targets;
 - manifest, app icons, shortcuts, service-worker shell and offline fallback;
+- all final photography, six local films, posters and share-preview metadata;
 - transport, framing, referrer, permission and content-type headers;
 - booking-window, request-size, anti-spam, cross-origin and strict-schema rejection;
 - Namibia-only phone validation and safe free-text normalization;
@@ -75,8 +80,8 @@ The private production repository completed:
 2. Cloudflare bundle preparation;
 3. booking-lock Worker deployment;
 4. Pages deployment to the canonical origin;
-5. the 110-check production contract against the deployed origin;
-6. live desktop and compact-mobile smoke passes; and
+5. the 133-check production contract against the deployed origin;
+6. live desktop, mobile and compact-landscape smoke passes; and
 7. removal and aggregate verification of every synthetic QA artifact.
 
 Private credentials, raw proof files and client data are intentionally absent from this public record.

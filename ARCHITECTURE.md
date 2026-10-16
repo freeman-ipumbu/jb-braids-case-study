@@ -46,7 +46,7 @@ If persistence fails after the claim, the interval is released. Confirmed and pr
 
 ## PWA boundary
 
-The service worker is registered globally so every public entry point can become installable. It warms the home, gallery, price list, offline route, local fonts and visual assets, and clears previous cache versions during activation.
+The service worker is registered globally so every public entry point can become installable. Cache version 9 warms the home, gallery, price list, offline route, local fonts and final visual assets, and clears previous cache versions during activation.
 
 The `/book` route is intentionally excluded from the offline shell. Booking depends on live availability and a reachable API; presenting a cached, apparently functional request form would be misleading. When the network is unavailable, booking navigation resolves to the branded offline state instead.
 
@@ -54,10 +54,12 @@ The `/book` route is intentionally excluded from the offline shell. Booking depe
 
 The information architecture prevents a media-heavy brand from turning into an endless wall:
 
-- `/` is the edited introduction: founder, four signature services, five portfolio moments, selected social proof, popular prices and rewards.
-- `/gallery` carries the broader visual exhibition and direct booking links.
+- `/` is the edited introduction: founder, four signature services, five portfolio moments, one active six-film studio player, selected social proof, popular prices and rewards.
+- `/gallery` carries the deliberately ordered 12-look exhibition and direct booking links.
 - `/price-list` is a shareable menu and policy reference.
 - `/book` is a focused, query-aware journey rather than another home-page section.
 - `/admin` is the private operational surface for bookings, proofs, capacity, menu data, clients and rewards.
 
 Progressive reveal effects start from readable content and only hide elements after JavaScript is active. Reduced-motion preferences shorten animation, and mobile navigation locks background scroll while preserving an internally scrollable menu.
+
+Every public route publishes a canonical production URL. The root experience also exposes dedicated Open Graph and Twitter preview data backed by a 1200 × 630 launch image, while gallery, price-list and booking routes provide route-specific titles, descriptions and canonical destinations.
