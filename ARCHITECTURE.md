@@ -46,7 +46,7 @@ If persistence fails after the claim, the interval is released. Confirmed and pr
 
 ## PWA boundary
 
-The service worker is registered globally so every public entry point can become installable. Cache version 9 warms the home, gallery, price list, offline route, local fonts and final visual assets, and clears previous cache versions during activation.
+The service worker is registered globally so every public entry point can become installable. Cache version 11 warms the home, gallery, price list, offline route, local fonts, versioned line-art identity assets and cache-busted share card, and clears previous cache versions during activation.
 
 The `/book` route is intentionally excluded from the offline shell. Booking depends on live availability and a reachable API; presenting a cached, apparently functional request form would be misleading. When the network is unavailable, booking navigation resolves to the branded offline state instead.
 
@@ -62,4 +62,4 @@ The information architecture prevents a media-heavy brand from turning into an e
 
 Progressive reveal effects start from readable content and only hide elements after JavaScript is active. Reduced-motion preferences shorten animation, and mobile navigation locks background scroll while preserving an internally scrollable menu.
 
-Every public route publishes a canonical production URL. The root experience also exposes dedicated Open Graph and Twitter preview data backed by a 1200 × 630 launch image, while gallery, price-list and booking routes provide route-specific titles, descriptions and canonical destinations.
+Every public route publishes a canonical production URL. Home, gallery, price list and booking publish route-specific Open Graph and Twitter data backed by the cache-busted 1200 × 630 black-and-white line-art launch image, with matching titles, descriptions and canonical destinations.

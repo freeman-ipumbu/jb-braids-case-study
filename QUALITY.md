@@ -10,8 +10,8 @@ This file records current-tree and deployed-origin checks for the monochrome rel
 - TypeScript completed with no emitted files and no type errors.
 - The production-mode application build completed successfully.
 - 21 public-route, preset and PWA probes passed in the current-tree regression check; `/admin` correctly redirected to authentication.
-- Every referenced font, image, poster, six-film source and 1200 × 630 social-preview asset returned a successful, non-empty response.
-- All 24 explicit service-worker shell entries were retrievable after the live-only booking route was removed from the cache list.
+- Every referenced font, image, poster, six-film source and cache-busted 1200 × 630 black-and-white line-art social-preview asset returned a successful, non-empty response.
+- All 25 explicit service-worker shell entries were retrievable after the live-only booking route was removed from the cache list.
 - The generated content-security policy permits the intended TikTok frame origin while retaining strict frame and resource boundaries.
 - Completed, cancelled and no-show records are excluded consistently from availability and booking-capacity checks.
 - Global PWA registration covers direct visits to the gallery, price list and other public routes.
@@ -19,7 +19,7 @@ This file records current-tree and deployed-origin checks for the monochrome rel
 
 ## Deployed production verification
 
-- The final production contract completed with **133 passed · 0 failed** against the canonical origin.
+- The final production contract completed with **143 passed · 0 failed** against the canonical origin.
 - Live visual smoke checks passed at 1440 × 900 desktop, 390 × 844 mobile, 320 × 568 compact mobile and 844 × 390 compact landscape.
 - The isolated production QA cleanup removed exactly the seven KV keys and one R2 object created by the verification run.
 - Aggregate post-clean verification reported 0 booking records, 0 customer records, 0 loyalty records and a 0 B proof bucket.
@@ -49,22 +49,23 @@ The review covered:
 - admin mobile density and empty-space removal;
 - text contrast across image overlays and dark panels; and
 - progressive-reveal fallback when JavaScript is unavailable.
-- canonical, Open Graph and Twitter share metadata plus the 1200 × 630 launch card.
+- canonical, route-specific Open Graph and Twitter share metadata plus the cache-busted 1200 × 630 line-art launch card.
 
 The corrected layouts were rechecked at the affected breakpoints after the fixes.
 
 ## Interaction and hardening coverage
 
-The deployed 133-check production contract covers the following release-critical behavior:
+The deployed 143-check production contract covers the following release-critical behavior:
 
 - public routes, same-origin destinations and internal fragment targets;
-- manifest, app icons, shortcuts, service-worker shell and offline fallback;
+- manifest, versioned line-art app icons, shortcuts, service-worker shell and offline fallback;
 - all final photography, six local films, posters and share-preview metadata;
 - transport, framing, referrer, permission and content-type headers;
 - booking-window, request-size, anti-spam, cross-origin and strict-schema rejection;
 - Namibia-only phone validation and safe free-text normalization;
 - callout address and Namibia map-pin requirements;
-- server-calculated totals and 50% deposits;
+- server-calculated totals, the exact 17:00 N$100 after-hours boundary and 50% deposits;
+- concise server-rendered policy cards, required acknowledgement, policy-version storage and stale-policy rejection;
 - collision prevention, daily chair capacity and occupied-time removal;
 - bounded 24-hour provisional unpaid holds;
 - proof-file signature validation, private storage and no-store delivery;
@@ -80,7 +81,7 @@ The private production repository completed:
 2. Cloudflare bundle preparation;
 3. booking-lock Worker deployment;
 4. Pages deployment to the canonical origin;
-5. the 133-check production contract against the deployed origin;
+5. the 143-check production contract against the deployed origin;
 6. live desktop, mobile and compact-landscape smoke passes; and
 7. removal and aggregate verification of every synthetic QA artifact.
 

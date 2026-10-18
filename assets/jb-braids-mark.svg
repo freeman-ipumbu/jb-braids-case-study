@@ -1,22 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
-  <title id="title">JB.Braids strand monogram</title>
-  <desc id="desc">A refined black J and B drawn as interlocking braided strands on warm white.</desc>
-  <rect x="5" y="5" width="230" height="230" rx="42" fill="#F7F7F5" stroke="#0B0B0B" stroke-width="10"/>
-  <circle cx="67" cy="45" r="12" fill="#0B0B0B"/>
+  <title id="title">JB.Braids line portrait monogram</title>
+  <desc id="desc">A monochrome continuous-line feminine profile with a J-shaped braid and subtle B-shaped hair loops.</desc>
+  <rect x="5" y="5" width="230" height="230" rx="46" fill="#F7F7F5" stroke="#0B0B0B" stroke-width="8"/>
   <g fill="none" stroke="#0B0B0B" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M67 71v72c0 33 10 51 27 51 6 0 11-3 13-9" stroke-width="20"/>
-    <path d="M117 48v146" stroke-width="18"/>
-    <path d="M117 53c43-13 68 1 66 29-2 24-24 34-66 30" stroke-width="18"/>
-    <path d="M117 112c52-8 77 10 71 43-5 30-34 42-71 37" stroke-width="18"/>
-  </g>
-  <g stroke="#F7F7F5" stroke-width="6" stroke-linecap="round">
-    <path d="M58 82l19 11"/><path d="M57 117l19 11"/><path d="M106 78l20 11"/>
-    <path d="M106 121l20 11"/><path d="M106 164l20 11"/><path d="M150 60l18 10"/>
-    <path d="M153 118l20 11"/><path d="M154 166l19 10"/>
-  </g>
-  <g stroke="#8B8B87" stroke-width="2.5" stroke-linecap="round">
-    <path d="M61 82l14 8"/><path d="M60 117l14 8"/><path d="M109 78l14 8"/>
-    <path d="M109 121l14 8"/><path d="M109 164l14 8"/><path d="M153 60l13 7"/>
-    <path d="M156 118l14 8"/><path d="M157 166l13 7"/>
+    <path d="M72 205C52 191 40 166 41 133C42 97 45 75 63 55C84 33 118 27 147 38C178 50 196 81 193 113C192 128 185 140 175 151C166 161 162 173 157 186" stroke-width="5.4"/>
+    <path d="M105 56C129 57 149 69 160 88C165 98 164 108 166 117C167 124 172 129 178 133C184 137 184 142 178 145C174 147 169 147 166 150C171 154 171 159 167 162C170 169 165 176 158 179C145 184 132 179 123 171C114 164 108 155 104 145C101 160 101 178 107 197" stroke-width="5.4"/>
+    <path d="M65 67C51 90 54 113 65 130C75 145 76 158 64 170C54 180 55 192 65 199C77 207 90 200 92 187C95 170 85 158 81 143C76 123 85 106 99 94C111 84 114 70 105 56" stroke-width="5.4"/>
+    <path d="M73 78C87 68 99 69 104 78C110 89 99 97 86 98C102 99 111 108 107 119C103 130 89 131 76 125" stroke-width="4.7"/>
+    <path d="M122 108C133 101 145 102 152 108M124 119C132 113 142 113 149 119C142 124 133 124 126 121M151 113C152 126 147 135 142 140C148 142 154 140 158 138M148 153C154 149 161 150 165 153C161 158 154 159 148 155" stroke-width="4"/>
+    <path d="M103 117C94 115 91 123 96 131C100 136 106 133 106 126" stroke-width="3.7"/>
+    <path d="M55 93L67 99M54 113L67 119M62 148L75 153M59 177L72 182M72 198L82 191" stroke-width="3"/>
   </g>
 </svg>
