@@ -25,7 +25,7 @@ The public experience, booking API and studio operations share one server-owned 
 
 The availability endpoint gives clients a useful preview, but the final decision is made again when the request is written. A booking is accepted only when:
 
-1. the date is inside the 7–90 day booking window;
+1. the date is inside the 2–90 day booking window;
 2. the day is not blocked;
 3. sufficient chair capacity remains;
 4. the requested start is valid for the service duration and travel route; and
@@ -46,7 +46,7 @@ If persistence fails after the claim, the interval is released. Confirmed and pr
 
 ## PWA boundary
 
-The service worker is registered globally so every public entry point can become installable. Cache version 11 warms the home, gallery, price list, offline route, local fonts, versioned line-art identity assets and cache-busted share card, and clears previous cache versions during activation.
+The service worker is registered globally so every public entry point can become installable. Cache version 12 warms the home, gallery, price list, offline route, local fonts, versioned line-art identity assets and cache-busted share card, and clears previous cache versions during activation.
 
 The `/book` route is intentionally excluded from the offline shell. Booking depends on live availability and a reachable API; presenting a cached, apparently functional request form would be misleading. When the network is unavailable, booking navigation resolves to the branded offline state instead.
 

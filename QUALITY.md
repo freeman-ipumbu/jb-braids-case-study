@@ -19,7 +19,7 @@ This file records current-tree and deployed-origin checks for the monochrome rel
 
 ## Deployed production verification
 
-- The final production contract completed with **143 passed · 0 failed** against the canonical origin.
+- The final production contract completed with **146 passed · 0 failed** against the canonical origin.
 - Live visual smoke checks passed at 1440 × 900 desktop, 390 × 844 mobile, 320 × 568 compact mobile and 844 × 390 compact landscape.
 - The isolated production QA cleanup removed exactly the seven KV keys and one R2 object created by the verification run.
 - Aggregate post-clean verification reported 0 booking records, 0 customer records, 0 loyalty records and a 0 B proof bucket.
@@ -55,7 +55,7 @@ The corrected layouts were rechecked at the affected breakpoints after the fixes
 
 ## Interaction and hardening coverage
 
-The deployed 143-check production contract covers the following release-critical behavior:
+The deployed 146-check production contract covers the following release-critical behavior:
 
 - public routes, same-origin destinations and internal fragment targets;
 - manifest, versioned line-art app icons, shortcuts, service-worker shell and offline fallback;
@@ -81,7 +81,7 @@ The private production repository completed:
 2. Cloudflare bundle preparation;
 3. booking-lock Worker deployment;
 4. Pages deployment to the canonical origin;
-5. the 143-check production contract against the deployed origin;
+5. the 146-check production contract against the deployed origin;
 6. live desktop, mobile and compact-landscape smoke passes; and
 7. removal and aggregate verification of every synthetic QA artifact.
 

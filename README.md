@@ -57,7 +57,7 @@ The restraint is intentional: the interface recedes, the hairstyles own the colo
 | --- | --- | --- |
 | Curated home edit, 12-look `/gallery` and six-film studio player | Authenticated private studio desk | Server-controlled pricing, totals and 50% deposit |
 | Complete `/price-list` and focused `/book` journey | Booking, status and proof workflow | Atomic collision and daily-capacity protection |
-| 7–90 day availability calendar | Calendar capacity and blocked days | Namibia-only phone validation |
+| 2–90 day availability calendar | Calendar capacity and blocked days | Namibia-only phone validation |
 | Home-studio, house-call and away-call routes | Service pricing and duration editor | Strict origin, schema and upload validation |
 | Windhoek address search and map pin | Crown Club and referral ledger | Private payment-proof storage |
 | Optional colour, prep, reference and custom-request details | Founder-specific embedded operating guide | 24-hour provisional unpaid hold |
@@ -117,7 +117,7 @@ The production implementation remains private. This repository is a portfolio-sa
 
 ## Release quality
 
-The deployed monochrome release passed lint, TypeScript, production-mode build, current-tree route/PWA/asset probes and the final production contract: **143 passed · 0 failed**. Live visual smoke review covered 1440 × 900 desktop, 390 × 844 mobile, 320 × 568 compact mobile and 844 × 390 compact landscape. The line-art identity, film switcher, gallery actions, booking entry, founder crop, concise policy, 17:00 fee boundary, header, mobile dock and route-specific social metadata were included in the final scrutiny. An isolated synthetic production run was fully cleaned, and aggregate post-clean verification found no booking, customer, loyalty or proof artifacts remaining.
+The deployed monochrome release passed lint, TypeScript, production-mode build, current-tree route/PWA/asset probes and the final production contract: **146 passed · 0 failed**. Live visual smoke review covered 1440 × 900 desktop, 390 × 844 mobile, 320 × 568 compact mobile and 844 × 390 compact landscape. The line-art identity, film switcher, gallery actions, booking entry, founder crop, concise policy, exact 2-day/90-day booking boundaries, 17:00 fee boundary, header, mobile dock and route-specific social metadata were included in the final scrutiny. An isolated synthetic production run was fully cleaned, and aggregate post-clean verification found no booking, customer, loyalty or proof artifacts remaining.
 
 See the [quality record](QUALITY.md) and [architecture notes](ARCHITECTURE.md) for the evidence boundary and system design.
 
