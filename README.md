@@ -128,7 +128,7 @@ See the [quality record](QUALITY.md) and [architecture notes](ARCHITECTURE.md) f
 **SolarSpin Technologies** — Brand direction, experience design, engineering and launch
 
 Built in Windhoek, Namibia.<br />
-[A Digital Experience by SolarSpin Technologies](https://solarspin-namibia.pages.dev/)
+[A Digital Experience by SolarSpin Technologies](https://www.solarspin-namibia.xyz/)
 
 ---
 
